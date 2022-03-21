@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "9884211701",
+    "project_id": "advance-wireless-notice-c2a37",
+    "storage_bucket": "advance-wireless-notice-c2a37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9884211701:android:4639a1744cc578d987e8bc",
+        "android_client_info": {
+          "package_name": "com.example.v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9884211701-naif8i0sfmupdl9rjsin7r9hm14hgefk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv3PNo4J8pASGxlzCeOYOoozQjdFnFpIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9884211701-naif8i0sfmupdl9rjsin7r9hm14hgefk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9884211701:android:108d0a343a78500587e8bc",
+        "android_client_info": {
+          "package_name": "com.example.wirelessnoticeboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9884211701-naif8i0sfmupdl9rjsin7r9hm14hgefk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv3PNo4J8pASGxlzCeOYOoozQjdFnFpIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9884211701-naif8i0sfmupdl9rjsin7r9hm14hgefk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
