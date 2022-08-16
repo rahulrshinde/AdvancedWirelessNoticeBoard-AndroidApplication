@@ -3,15 +3,20 @@ package com.example.v2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.v2.Utility.NetworkChangeListener;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Register extends AppCompatActivity {
+
+    NetworkChangeListener networkChangeListener = new NetworkChangeListener();
 
     private String email;
 
@@ -58,5 +63,17 @@ public class Register extends AppCompatActivity {
 
         // Back to Login
         backBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),Login.class)));
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeListener, filter);
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeListener);
+        super.onStop();
     }
 }

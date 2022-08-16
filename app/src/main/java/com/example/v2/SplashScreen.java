@@ -1,7 +1,6 @@
 package com.example.v2;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,9 +15,9 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         new Handler().postDelayed(() -> {
-            Intent i = new Intent(SplashScreen.this,Login.class);
-                    startActivity(i);
-                    finish();
+            Intent i = new Intent(SplashScreen.this, Login.class);
+            startActivity(i);
+            finish();
         }, 3000);
     }
 }

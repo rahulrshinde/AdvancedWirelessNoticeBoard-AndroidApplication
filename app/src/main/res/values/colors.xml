@@ -11,4 +11,10 @@
     <color name="start_color">#12c2e9</color>
     <color name="mid_color">#c471ed</color>
     <color name="end_color">#f64f59</color>
+
+<!--    Demo Colors-->
+    <color name="colorOnPrimaryDemo">#fff</color>
+    <color name="colorPrimaryDemo">#554911</color>
+    <color name="colorPrimaryLightDemo">#EEE3AB</color>
+    <color name="colorAccentDemo">#665815</color>
 </resources>

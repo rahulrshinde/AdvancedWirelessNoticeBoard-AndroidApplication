@@ -34,7 +34,8 @@
                 android:layout_height="50dp"
                 android:layout_gravity="end"
                 android:background="@android:color/transparent"
-                app:srcCompat="@android:drawable/ic_lock_power_off" />
+                app:srcCompat="@android:drawable/ic_lock_power_off"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <TextView
                 android:id="@+id/etLogout"
@@ -63,8 +64,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 @#%*-+',./\?():|!~{}[]_=^$`"
                 android:hint="Enter Notice Here"
                 android:inputType="textPersonName"
+                android:maxLength="150"
                 android:maxLines="1"
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"
@@ -72,7 +75,8 @@
                 android:textColor="@color/cardview_dark_background"
                 android:textColorHint="@color/cardview_dark_background"
                 android:textCursorDrawable="@drawable/cursor_color"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
 
         </RelativeLayout>
